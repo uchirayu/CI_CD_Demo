@@ -4,7 +4,7 @@ on:
   workflow_dispatch:    # run manually from Actions tab
 
 permissions:
-  contents: read        # token can ONLY read repo contents
+  contents: write        # token can ONLY read repo contents
 
 jobs:
   test-token:
